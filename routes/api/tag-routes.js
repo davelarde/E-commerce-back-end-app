@@ -61,7 +61,7 @@ router.put('/:id', (req, res) => {
     tag_name: req.body.tag_name,
   },{
     where: {
-      id: req.params.id.
+      id: req.params.id,
     },
   })
   .then((tag)=>{
